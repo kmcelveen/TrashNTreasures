@@ -1,1 +1,79 @@
 /* Empty. Add your own CSS if you like */
+
+.popup-container .popup {
+  border-radius: 5%;
+  width: 70%;
+  background-color: white;
+}
+
+.panel-body .loginForm {
+  border: none;
+}
+
+.loginForm .loginInput {
+  padding-left: 20px;
+}
+
+.ion-images:before {
+  font-size: 80px;
+}
+
+button .ion-ios-camera:before {
+  font-size: 80px;
+}
+
+div.list.card.photoChoice{
+  margin-top: 30%;
+}
+
+div.item.item-divider.title {
+  padding: 5%;
+  background-color: #11c1f3;
+}
+
+div.item.item-divider.title h2 {
+  color: white;
+  text-align: center;
+  font-size: 22px;
+}
+
+div.item.item-image.choice{
+  padding: 5%;
+}
+
+.item.inputUpload {
+  border: none;
+}
+
+
+.item.inputUploadTop {
+    border-right: none;
+    border-bottom: none; 
+    border-left: none;
+    border-top: darkgrey solid 1px;
+}
+
+#mainBackground {
+  background-image: url("/img/trash.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+.box {
+  margin: 50px auto;
+/*  background: #5FCF80;
+*/  width: 150px;
+  height: 150px;
+}
+.box:hover {
+  transform: rotate(360deg);
+/*  background: #9351A6;
+*/  border-radius: 50%;
+}
+.rotate {
+  transition: all 0.5s ease-in-out;
+}
+.rotate:hover {
+  transition: all 1s ease-in-out;
+}
